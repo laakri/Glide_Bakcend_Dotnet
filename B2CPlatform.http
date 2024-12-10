@@ -1,0 +1,6 @@
+@B2CPlatform_HostAddress = http://localhost:5152
+
+GET {{B2CPlatform_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,74 @@
+# .NET Core build output
+bin/
+obj/
+out/
+
+# Visual Studio files
+.vs/
+*.user
+*.userosscache
+*.sln.docstates
+*.userprefs
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment files
+appsettings.json
+appsettings.Development.json
+appsettings.Production.json
+appsettings.Local.json
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Database files
+*.mdf
+*.ldf
+*.ndf
+
+# Test Results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# NuGet
+*.nuget.props
+*.nuget.targets
+packages/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Images and uploads
+wwwroot/uploads/
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.ico
+*.svg
+*.webp
+*.bmp
+*.tiff
+*.psd
+
+
+# Migrations
+Migrations/
+*.Designer.cs
